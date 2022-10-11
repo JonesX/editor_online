@@ -32,17 +32,12 @@ btnCreateLayer.addEventListener('click', function(ev){
 var LeafIcon = L.Icon.extend({
     options: {
         shadowUrl: 
-            'http://leafletjs.com/docs/images/leaf-shadow.png',
-        iconSize:     [38, 95],
-        shadowSize:   [50, 64],
-        iconAnchor:   [22, 94],
-        shadowAnchor: [4, 62],
-        popupAnchor:  [-3, -76]
+            'js/images/marker-shadow.png'
     }
 });
 
 var greenIcon = new LeafIcon({
-    iconUrl: 'http://leafletjs.com/docs/images/leaf-green.png'
+    iconUrl: 'js/images/marker-icon.png'
     });
 
 var drawControl = ''
