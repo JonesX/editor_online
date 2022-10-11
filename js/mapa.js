@@ -1,7 +1,7 @@
 var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {});
 
 var baselayers = {
-    "Open streep map": osm,
+    "Open street map": osm,
 };
 
 var map = L.map(document.getElementById('map'), {
