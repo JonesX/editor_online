@@ -1,6 +1,8 @@
 var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {});
+var esri = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {});
 
 var baselayers = {
+    "Esri": esri,
     "Open street map": osm,
 };
 
@@ -8,7 +10,7 @@ var map = L.map(document.getElementById('map'), {
     center: [-20.287, -40.315],
     zoom: 13,
     zoomControl: false,
-    layers: [osm]
+    layers: [esri]
 });
 
 var layerControl = L.control.layers(baselayers, {}, {collapsed: false}).addTo(map);
