@@ -1,3 +1,3 @@
-# editor_online
+# Editor de mapas online
 
-projeto de estudo da biblioteca Leaflet.js.
+Projeto criado a partir do estudo da biblioteca Leaflet.js. O sistema permite criar e editar camadas vetoriais. 
