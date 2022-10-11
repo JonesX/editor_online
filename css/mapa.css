@@ -1,0 +1,21 @@
+#map {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#new_layer_field {
+    position: absolute;
+    border: 10px;
+    left: 43%;
+}
+
+#mapCoordDIV {
+    position: absolute;
+    bottom: 0px;
+    left: 49%;
+    z-index: 900;
+}
